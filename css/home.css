@@ -1,0 +1,656 @@
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/open-sans-v40-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* open-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/open-sans-v40-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* rajdhani-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rajdhani-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rajdhani-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/rajdhani-v15-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* rajdhani-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/rajdhani-v15-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Open Sans';
+  }
+
+  .spacer{
+    padding: 120px 0;
+  }
+  
+  .tp a{
+    font-family: 'Open Sans';
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  button{
+    padding: 2px 15px;
+    background: #80b500;
+    transition: 0.5s;
+  }
+
+  button:hover{
+    background-color: #699403;
+    border: 1px solid #689403;
+  }
+
+  ul li:hover{
+    color: #80b500;
+  }
+
+  /* slider */
+  .banner h6, h1{
+    font-family: sans-serif;
+  }
+
+  .bn .bn1{
+    text-align: end;
+  }
+
+  .button .btn1{
+    box-shadow: 1px 1px 10px grey;
+  }
+
+ .owl-theme .owl-nav{
+    position: relative;
+    /* left: 0; */
+  }
+
+  .owl-nav .next{
+    position: absolute;
+    right: 0;
+  }
+  /* slider */
+
+  .box{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .box-1{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 1s;
+  }
+
+  .box-2{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    display: block;
+    object-fit: cover;
+    overflow: hidden;
+    transition: 1s;
+  }
+
+  .box img{
+    transition: 1.5s;
+  }
+
+  .box-1 img{
+    transition: 1.5s;
+  }
+
+  .box-2 img{
+    transition: 1.5s;
+  }
+
+  .box:hover img{
+    transform: scale(1.1);
+  }
+
+  .box-1:hover img{
+    transform: scale(1.1);
+  }
+
+  .box-2:hover img{
+    transform: scale(1.1);
+  }
+
+  .box1{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+
+  /* Our Products */
+  .head h1{
+    font-family: 'Rajdhani';
+    font-size: 56px;
+  }
+
+  .details{
+    border: 1px solid rgba(82, 79, 79, 0.171);
+    border-top: none;
+    padding: 5px;
+  }
+
+  .details h5{
+    font-family: 'Rajdhani';
+  }
+  /* Our Products */
+
+  
+  /* Todays Hot Deals */
+  .single h3{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50px;
+    font-weight: 800;
+  }
+
+  .single p{
+    width: 100px;
+    text-align: center;
+    
+  }
+
+  .time h1{
+    font-family: 'Rajdhani';
+    font-size: 54px;
+  }
+
+  .time h6{
+    font-family: 'Rajdhani';
+  }
+
+  .play{
+    position: relative;
+  }
+
+  .ico i{
+    padding: 20px;
+    border: 5px solid white;
+  }
+
+  .ico i{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+  }
+  /* Todays Hot Deals */
+
+  .img{
+    width: 30%;
+  }
+
+  .testimonial{
+    padding: 20px;
+    background: #fff;
+    margin-left: 10px;
+  }
+
+  .Clients{
+    background: #f7f5eb;
+  }
+
+  .testimonial i{
+    font-size: 20px;
+  }
+
+
+  /* blog */
+
+  .blog-details{
+    font-family: 'Rajdhani';
+    padding: 20px;
+    background-color: rgb(247, 242, 242);
+  }
+
+  .blog-img{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+  .blog-img img{
+    transition: 0.5s;
+    background-size: cover;
+
+  }
+  .blog-img:hover img{
+    transform: scale(1.1);
+  }
+  /* blog */
+
+  /* cnt */
+  .cnt{
+    background-color: #f7f5eb;
+    padding-top: 150px;
+    padding-bottom: 90px;
+  }
+
+  .oth{
+    position: relative;
+    /* width: 100%; */
+  }
+
+  .othr{
+    padding: 20px;
+    position: absolute;
+    background-color: #fff;
+    top: -80px;
+    right: 120px;
+    /* left: 15px; */
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.178);
+  }
+  /* cnt */
+
+  /* footer */
+  footer
+  {
+    background-color: #071c1f;
+  }
+  /* footer */
+
+  /* about */
+  .bgimg{
+    background-image: url(../about/asset\ 40.jpeg);
+  }
+  
+  .bgimg {
+    background-size: cover;
+    background-position: center center;
+    opacity: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    /* background: #071c1fd3;  */
+    width: 100%;
+    padding: 180px;
+}
+
+.info{
+  width: 30%;
+  height: 300px;
+  padding-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.199);
+}
+
+.image-container {
+  position: relative;
+  width: 100%; /* Adjust as per your image size */
+  height: 100%; /* Adjust as per your image size */
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #071c1f; /* Adjust overlay background color and opacity */
+  overflow: hidden;
+  transition: height 0.3s ease;
+  opacity: 80%;
+}
+
+.image-container:hover .image-overlay {
+  height: 100%;
+}
+
+.overlay-content {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover .overlay-content {
+  transform: translateY(0);
+}
+
+.overlay-text {
+  color: white;
+  font-size: 24px; /* Adjust font size as needed */
+  text-align: center;
+}
+
+.overlay-content i{
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  margin-bottom: 50px;
+  /* margin-top: 50px; */
+}
+
+.s{
+  background-image: url(../about/asset\ 41.jpeg);
+  height: 422px;
+  
+}
+
+.blog{
+  margin-bottom: 120px;
+}
+
+.btns button{
+  border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.btns{
+  margin-bottom: 100px;
+}
+
+.btns button:hover{
+  background-color: #80b500;
+}
+  /* about */
+
+  /* pages */
+  .error h1{
+    font-size: 400px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #80b500;
+  }
+
+  .error h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  .error button{
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    padding: 10px 15px;
+  }
+
+  .error button:hover{
+    background-color: #699403;
+    color: white;
+  }
+  /* pages */
+
+  .contact{
+    padding: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+  }
+
+  .form .name{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+  }
+  .form .name:focus{
+    outline: none;
+  }
+  
+  .form .option{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+  }
+
+  .email .option:focus{
+    outline: none;
+  }
+  
+  .form .email, .number{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+  }
+  
+  .form .number,.email:focus{
+    outline: none;
+  }
+  
+  .form .msg{
+    padding: 60px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+  }
+
+  .form .msg:focus{
+    outline: #689403;
+  }
+
+  .contact button{
+    background-color: #80b500;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Rajdhani';
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .map{
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+  }
+
+  .maps{
+    margin-top: 900px;
+  }
+
+  .owl-carousel .owl-nav{
+    position: relative;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: -300px;
+    left: -80px;
+    /* padding: 40px; */
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    font-size: 25px;
+    /* display: none; */
+  }
+
+  .owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: #80b500;
+    position: absolute;
+    left: -60px;
+    /* display: block; */
+  }
+
+  .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: -300px;
+    right: -80px;
+    /* padding: 40px; */
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+
+  .owl-carousel .owl-nav button.owl-next:hover{
+    background-color: #80b500;
+    position: absolute;
+    right: -60px;
+    /* display: block; */
+  }
+
+  .owl-theme .owl-dots .owl-dot{
+    color: #689403;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: 0;
+    border-bottom: 2px solid green;
+  }
+
+
+  button:hover{
+    background-color: transparent;
+    border: 0;
+  }
+
+  .h{
+    position: relative;
+  }
+  
+
+  .h .a{
+  
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    display: none;
+  }
+
+  .product img:hover .h .a{
+    position: absolute;
+    bottom: 30px;
+    display: block;
+    box-shadow: 10px 10px 10px black;
+  }
+
+  .h .b{
+  
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+    display: none;
+  }
+
+  .h .c{
+  
+    padding: 10px 14px;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 190px;
+    display: none;
+  }
+
+  html{
+    scroll-behavior: smooth;
+  }
+  .headerfixed
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    animation: headertop .5s ease-in-out;
+  }
+  .headerfixed::after
+  {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+  }
+  
+
+  .box-1{
+    margin-bottom: 40px;
+  }
+
+  .box-1 img{
+    display: block;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .collapse ul li{
+    transition: 1s;
+    color: white;
+  }
+  
+  /* .collapse ul li:hover{
+    background-color: #02adc6;
+    border-radius: 10px;
+  } */
+  
+  .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+  }
